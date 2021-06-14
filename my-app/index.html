@@ -5,9 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>node-sass-teambit</title>
+    <!-- CDN fontawesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- style css -->
     <link rel="stylesheet" href="./dist/css/app.css">
 </head>
 <body>
+    <header class="container">
+
+        <div>
+            <img src="./dist/img/logo-small.svg" alt="">
+            <span>Teambit</span>
+        </div>
+
+        <nav>
+            <a href="#">Solutions <i class="fas fa-chevron-down"></i></a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+            <a href="#">Sign in</a>
+            <div class="btn">
+                <img class="logo_small" src="./dist/img/google-logo.svg" alt="logo google">
+                <a href="#">Sign up</a>
+            </div>
+        </nav>
+    </header>
+    <hr class="container">
+    <div id="jumbotron" class="container">
+        <div id="jumbo_left">
+            <h1>Understand, recognize and develop your people</h1>
+            <p>Teambit helps teams create a hight performing culture with regular feedback.</p>
+            <div class="acces">
+                <div class="btn_solid">
+                    <img src="./dist/img/google-logo.svg" alt="logo google" class="logo_small">
+                    <a href="#">Sign up with Google</a>
+                </div>
+                <span>or</span>
+                <div class="btn_solid">
+                    <img src="./dist/img/slack-logo.svg" alt="logo google" class="logo_small">
+                    <a href="#">Sign up with slack</a>
+                </div>
+            </div>
+            <span>or use your email address <a href="#"><i class="fas fa-arrow-right "></i></a></span>
+        </div>
+        <div id="jumbo_right">
+            <img src="./dist/img/illustration-main.jpg" alt="">
+        </div>
+    </div>
+    <!-- /#jumbotron -->
     <script src="./dist/js/app.js"></script>
 </body>
 </html>

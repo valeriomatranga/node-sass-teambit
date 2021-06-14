@@ -1,0 +1,38 @@
+$primary_color:rgba(88, 64, 44, 1);
+$blue_color: rgba(45, 72, 146, 1);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 80vw;
+    margin: 10px auto;
+}
+
+@mixin my-flex{
+    display: flex;
+}
+
+.logo_small{
+    width: 1.5rem;
+}
+
+.btn{
+    @include my-flex;
+    align-items: center;
+    border: 1px solid $blue_color;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+    a{
+        color: $blue_color;
+    }
+}
+
